@@ -53,7 +53,6 @@ def opcao_celular():
             \033[m''')
 
 
-
 def lin(msg):
     #Estiliza o Cabeçalho
     print('\033[1;34m='*10, f'{msg}', '='*10)
@@ -67,7 +66,6 @@ def cliente():
 
 
 #Programa principal
-
 lin('Hzdebian.Shop')
 
 
@@ -96,17 +94,16 @@ while True:
 
         elif opcelular == 2:
             preço = 2.000
-
             pagamento()
             break
+            
         elif opcelular == 3:
             preço = 1900
-            break
-
             pagamento()
+            break
+            
         elif opcelular == 4:
             preço == 5000
-
             pagamento()
             break
 
@@ -121,7 +118,6 @@ while True:
     except Exception as erro:
         print('Não foi possivel concluir seu pagamento.')
         print(f'Detalhes: {erro}')
-
 
 
 print('\033[0;32mby @Hzyzzq')
